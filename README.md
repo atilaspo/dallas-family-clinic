@@ -78,7 +78,13 @@ Dallas Family Clinic is a clinic management system that allows administrators an
 ## Usage
 
 1. Navigate to `http://localhost/dallas-family-clinic` in your web browser.
-2. Log in as an administrator or doctor to access the system's functionalities.
+2. Log in as an administrator or doctor to access the system's 
+functionalities.
+
+## Additional Documentation
+
+For detailed instructions on how to run the website and its database, please refer to the following document:
+[Run the Website and its Database (clinic_db)](https://github.com/atilaspo/dallas-family-clinic/blob/main/Run%20the%20Website%20and%20its%20Database%20(clinic_db).pdf)
 
 ## Contribution
 
