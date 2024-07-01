@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+}
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #3b5998;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sidebar-link {
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar-link:hover {
+    background-color: #4b70c1;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button, .btn, .btn-dashboard, .btn-add, .btn-edit, .btn-delete {
+    display: inline-block;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #5E20D0;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+button:hover, .btn:hover, .btn-dashboard:hover, .btn-add:hover, .btn-edit:hover, .btn-delete:hover {
+    background-color: #7b49d6;
+    box-shadow: 0 0 20px #7b49d650;
+    transform: scale(1.1);
+}
+
+button:active, .btn:active, .btn-dashboard:active, .btn-add:active, .btn-edit:active, .btn-delete:active {
+    background-color: #7b49d6;
+;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form label {
+    margin-right: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-form input[type="submit"],
+.search-form button {
+    padding: 5px 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #5E20D0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
